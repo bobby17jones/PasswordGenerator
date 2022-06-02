@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <link rel="stylesheet" href="./main.css" />
+    <script src="./password.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passwort Generator</title>
+  </head>
+  <body>
+    <div class="box">
+      <h2>Zufälliger Passwort Generator</h2>
+      <input
+        type="text"
+        name=""
+        placeholder="Passwort erstellen"
+        id="password"
+        readonly
+      />
+      <table>
+        <th>
+          <div id="button" class="btn1" onclick="generatePassword()">
+            Generate
+          </div>
+        </th>
+        <th><a id="button" class="btn2" onclick="copyPassword()">Copy</a></th>
+      </table>
+    </div>
+  </body>
+</html>
